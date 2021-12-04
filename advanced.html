@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Advanced Search</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<ul class="searchoption">
+    	    <li><a href="index.html"><button class="goback">Back to Search</button></a></li>
+        </ul>
+        <h3>Advanced Google Search</h3>
+        <hr>
+		<form action="https://google.com/search">
+			
+			<table class="search-table">
+				<tr><td><h4>Find pages with...</h4></td></tr>	
+				<tr>
+					<td> All of these words: </td>
+					<td> <input name="as_q" type="text" class="a-searchbar"> </td>
+					<td>Type the important words: tricolor rat terrier</td>
+				</tr>
+				<tr>
+					<td>This exact word or phrase: </td>
+					<td><input name="as_epq" type="text" class="a-searchbar"></td>
+					<td>Put exact words in quotes: "rat terrier"</td>
+				</tr>
+				<tr>
+					<td> Any of these words: </td>
+					<td> <input name="as_oq" type="text" class="a-searchbar"> </td>
+					<td>Type OR between all the words you want: miniature OR standard</td>
+				</tr>
+				<tr>
+					<td>None of these words: </td>
+					<td><input name="as_eq" type="text" class="a-searchbar"> </td>
+					<td>Put 2 periods between the numbers and add a unit of measure:<br>10..35 lb, $300..$500, 2010..2011</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Advanced Search" class="a-searchbutton"></td>
+				</tr>
+			 </table>	
+		</form>
+	</body>
+</html>

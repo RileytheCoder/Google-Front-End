@@ -1,0 +1,148 @@
+body{
+    font-family: arial,sans-serif
+}
+p{
+    margin: 40px;
+}
+h3{
+    color:rgb(221, 85, 103)
+    
+}
+.google-main {
+    font-size: 80px;
+    position: relative;
+    top: 50px;
+}
+.mainsearchbutton{
+    background-color: #f5f5f5;
+    border: none;
+    color: #030303f3;;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.mainsearchbutton:hover{
+    box-shadow: 1px 1px 8px 1px #807d7d;
+}
+.mainsearchbar{
+    border-color: #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+.imagesearchbar {
+    border-color: #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+.a-searchbar {
+    border-radius: 5px;
+    display: block;
+    margin: 7px;
+    padding: 7px;
+    width: 500px;
+  }
+.luckybutton {
+    background-color: #f5f5f5;
+    border: none;
+    color: #030303f3;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 1px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.luckybutton:hover{
+    box-shadow: 1px 1px 8px 1px #807d7d;
+}
+span{
+    font-size: 100px;
+    letter-spacing: -10px;
+}
+.search-table tr td .a-searchbutton {
+    background-color: #F8F9FA;
+    border-style: none;
+    margin: 11px 4px;
+    padding: 8px 16px;
+    float: right;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.search-table tr td .a-searchbutton:hover{
+    box-shadow: 1px 1px 8px 1px #807d7d;
+}
+.search-table tr td .a-searchbar{
+    border-color: #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: auto;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+.search-table{
+    margin: 15px 45px;
+}
+.searchoption {
+    text-align: right;
+}
+.searchoption li {
+    display: inline-block;
+    padding: 5px;
+}
+.imagesearchbutton{
+    background-color: #f5f5f5;
+    border: none;
+    color: #030303f3;;
+    font-size:15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.imagesearchbutton:hover{
+    box-shadow: 1px 1px 8px 1px #807d7d;
+}
+.header-button{
+    background-color: #f5f5f5;
+    border: none;
+    color: #030303f3;;
+    font-size:15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.header-button:hover{
+    box-shadow: 1px 1px 8px 1px #807d7d;
+}
+.goback{
+    background-color: #f5f5f5;
+    border: none;
+    color: #030303f3;;
+    font-size:15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.goback:hover{
+    box-shadow: 1px 1px 8px 1px #807d7d;
+}
